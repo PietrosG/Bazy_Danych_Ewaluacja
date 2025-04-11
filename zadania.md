@@ -5,4 +5,4 @@ Zadania Ewaluacyjne
 ```sql
 select nazwa_towaru from towar
 order by nazwa_towaru asc
-```sql
+```
