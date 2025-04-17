@@ -28,7 +28,7 @@ where sz.status_zamowienia is null;
 ```
 
 ## Zadanie 5
-Niestety tutaj miałem problem i nie wyszło mi tak jak powinno. Nazwa kategorii i count dawał mi wynik 0 dla kazdego
+
 ```sql
 select nazwa_kategori, count(t.kategoria) from kategoria as k 
 left join towar as t on k.nazwa_kategori = t.kategoria
